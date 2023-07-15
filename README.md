@@ -8,13 +8,12 @@ analyzing the saltbridges obtained by simulation and give the time series with a
 
 ## Instructions
 
-1.Make sure your data for each bridge analyzed is in a file.dat (see example.1) and that the file name correspond to the name of the two aminoacids that are interacting.
-2. The files need to be in the same directory that here is called 'saltbridges' specified in 'folder'.
-You should put your file in a new directory called saltbridges or change the variable 'folder' with the directory where your files are.
-3.  Run the script with the command
-python saltbridtest.py
+- 1.Make sure your data for each bridge analyzed is in a file.dat (see example.1) and that the file name correspond to the name of the two aminoacids that are interacting.
+- 2. The files need to be in the same directory that here is called 'saltbridges' specified in 'folder'. 
+You should put your file in a new directory called saltbridges or change the variable 'folder' with the directory where your files are. 
+- 3.  Run the script with the command 
+- python saltbridtest.py
 
-7. The script will process the `.dat` files in the same folder and generate an output file named `saltbridtest.txt` in the same folder.
 
 ## Data File Format
 
