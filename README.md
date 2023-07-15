@@ -1,5 +1,5 @@
-# saltbridges
-analyzing the saltbridges obtained by simulation and give the time series with a binary value, where 1 is when the bridge is present and  when is not, during the simulation.
+# saltbridges time series for protein simulation dynamics
+analyzing the saltbridges obtained by simulation and give the time series with a binary value, where 1 is when the bridge is present and  when is not, during the simulation. The threshold of the distance between the two aminoacids defining (0,1) is 5Å.
 
 ## Requirements
 
