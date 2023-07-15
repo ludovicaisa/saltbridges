@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 15 15:26:43 2023
 
-@author: ludovica
-"""
-
-"""
-Created on Sat Jul 15 12:44:22 2023
-
-@author: ludovica ais
+@author: ludovica aisa
 """
 
 import numpy as np
