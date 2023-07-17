@@ -14,8 +14,8 @@ It analyzes the files that contains information about the distance between two a
 - 2. The files need to be in the same directory that here is called 'saltbridges' specified in 'folder'. 
 You should put your file in a new directory called saltbridges or change the variable 'folder' with the name of directory where your files are. 
 - 3.  Run the script with the command 
-- python saltbridtest.py
-- or copy the script (make sure about the path of the directory where your files are)
+  python saltbridtest.py
+  or copy the script (make sure about the path of the directory where your files are)
 - 4. The output file is a file.txt called saltbridtest.txt
 
 ## Data File Format
