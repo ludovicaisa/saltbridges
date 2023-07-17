@@ -11,9 +11,8 @@ import os
 # specify the path of the folder
 folder = ".../saltbridges"
 
-# save the name of the files. NB: to avoid mistake the file name should be the aminoacid that are interacting amd their position in the chain
+# save the name of the files. NB: to avoid mistake the file name should be the aminoacids that are interacting and their position in the chain
 # example 'GLU34-LYS13'
-
 names=['']
 for nome_file in os.listdir(folder):
     if nome_file.endswith(".dat"):
@@ -22,7 +21,8 @@ for nome_file in os.listdir(folder):
             names.append(os.path.splitext(nome_file)[0])
             
 # analyze the distance between the aminoacids during time and gives 1 or 0 at at time t if their distance is < 5 Å.
-# this is done for all the files and the outout is the array data which contains the time series of (0,1) of all the files
+# this is done for all the data cointained in the files
+#the outout is an array data which contains the time series of (0,1) for each file
 data= np.array([],int)
 n=True
 for nome_file in os.listdir(folder):
