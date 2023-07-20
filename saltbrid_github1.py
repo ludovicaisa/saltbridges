@@ -45,7 +45,8 @@ for nome_file in os.listdir(folder):
                 n=False
             data=np.column_stack((data, values))
            
-# the final output is a file.txt with the first row containing the interacting aminoacids.
-#From the second out in the first column there is the time and the others and (1,0) value for each bridge forming or not of the aminoacids in the files. 
+# the final output is a file.txt with the first row containing the names of the aminoacids that form the salt bridge.
+#From the second row: the first column represents the simulation time and the other columns are the time series for each bridge of two aminoacids data contained in the directory
+# with (1,0) values: 1 the salt bridge is present, 0 the salt bridge is not present. 
 array_finale = np.vstack([names, data])
 np.savetxt('/saltbridtest.txt', array_finale, fmt='%15s', delimiter=' ')
