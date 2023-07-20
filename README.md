@@ -1,5 +1,5 @@
 # Saltbridges time series for protein simulation dynamics
-analyzing the saltbridges obtained by simulation and though a binary time series: 1 states for when the bridge is present and 0 when is not, at time t of the simulation. The threshold of the distance between the two aminoacids defining (0,1) is 5Å.
+Analyze the saltbridges obtained by simulation and through a binary time series: 1 states for when the bridge is present and 0 when is not, at time t of the simulation. The threshold of the distance between the two aminoacids defining the output values (0,1) is 5Å.
 It analyzes the files that contains information about the distance between two aminoacids over time, extracted from the salt bridges formations during the simulation.
 
 
